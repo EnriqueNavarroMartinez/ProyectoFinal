@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Opción Home -->
+    <!-- cada item representa un fragment que va a estar en el menu -->
+    <!-- los id coinciden con los id que hay en el nav_graph -->
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"
+        app:showAsAction="ifRoom" />
+
+    <!-- Opción Usuario -->
+    <item
+        android:id="@+id/usuarioFragment"
+        android:icon="@drawable/ic_usuario"
+        android:title="Usuario"
+        app:showAsAction="ifRoom" />
+
+</menu>
